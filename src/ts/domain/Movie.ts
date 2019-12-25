@@ -11,5 +11,7 @@ export default class Movie implements Buyable {
     readonly genres: string[],
     readonly time: number,
     readonly price: number,
+    readonly type: string = 'Movie',
+    readonly amount: number = 1,
   ) { }
 }
